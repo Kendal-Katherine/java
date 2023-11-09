@@ -19,7 +19,12 @@ public class Calculadora {
 		System.out.println("Soma: " + (numero1 + numero2));
 		System.out.println("Subtração: " + (numero1 - numero2));
 		System.out.println("Multiplicação: " + (numero1 * numero2));
-		System.out.println("Divisão: " + (numero1 / numero2));
+
+		if (numero2 > 0) {
+			System.out.println("Divisão: " + (numero1 / numero2));
+		} else {
+			System.out.println("Não existe divisão por zero!");
+		}
 		System.out.println("Módulo do número 1 (Resto da divisão): " + (numero1 % 2));
 		System.out.println("Módulo do número 2(Resto da divisão): " + (numero2 % 2));
 
