@@ -11,14 +11,14 @@ public class Exer03 {
 		int[][] matriz = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 		int soma1 = 0, soma2 = 0;
 		
-		System.out.println("Matriz primária: ");
-		for (int primaria = 0; primaria < 3; primaria++ ) {
-			System.out.print(matriz[primaria][primaria] + " ");
-			soma1 += matriz[primaria][primaria];
+		System.out.println("Diagonal principal: ");
+		for (int principal = 0; principal < 3; principal++ ) {
+			System.out.print(matriz[principal][principal] + " ");
+			soma1 += matriz[principal][principal];
 			
 		}
-		
-		System.out.println("\nMatriz secundária: ");
+		//tamanho - 1 - linha
+		System.out.println("\nDiagonal secundária: ");
 		for (int secundaria = 0; secundaria < 3; secundaria ++) {
 			System.out.print(matriz[secundaria][2 - secundaria] + " ");
 			soma2 += matriz[secundaria][secundaria];
