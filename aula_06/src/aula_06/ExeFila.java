@@ -27,6 +27,7 @@ public class ExeFila {
 		case 1: 
 			leia.nextLine();
 			System.out.print("Digite o nome do cliente: ");
+			leia.skip("\\R");
 			nome = leia.nextLine();
 			fila.add(nome);
 			System.out.println("O cliente foi adicionado!\n");

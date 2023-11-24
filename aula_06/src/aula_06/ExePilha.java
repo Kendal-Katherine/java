@@ -40,7 +40,7 @@ public class ExePilha {
 				
 				
 			case 3:
-				System.out.println("\nO Livro foi chamado!\n");
+				System.out.println("\nO Livro foi retirado da pilha!\n");
 				pilha.pop();
 				System.out.println("Pilha: ");
 				System.out.println(pilha);
